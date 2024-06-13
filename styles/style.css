@@ -1,0 +1,92 @@
+:root {
+  --yinmn-blue: #485696ff;
+  --platinum: #e7e7e7ff;
+  --sunset: #f9c784ff;
+}
+
+body {
+  color: black;
+  font-family: "PT Serif";
+}
+
+input button {
+  font-family: "PT Serif";
+}
+
+h1 {
+  font-family: "Ultra";
+}
+
+.blue {
+  color: var(--yinmn-blue);
+}
+
+.platinum {
+  color: var(--platinum);
+}
+
+.sunset {
+  color: var(--sunset);
+}
+
+.center-contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-center {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#main-content {
+  display: grid;
+}
+
+#add-task {
+  background-color: var(--sunset);
+  border-radius: 10rem;
+  display: flex;
+}
+
+#add-task input {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "PT Serif";
+  margin: 10px;
+}
+
+#add-task input:focus {
+  outline: none;
+}
+
+#add-task button {
+  border: none;
+  background-color: transparent;
+  margin: 5px;
+}
+
+#tasks-todo {
+  margin: 4%;
+  display: grid;
+  text-align: center;
+}
+
+.task-item {
+  width: 60%;
+  padding: 2%;
+  background-color: var(--platinum);
+  border-radius: 10rem;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.complete-button {
+  border: none;
+  background-color: transparent;
+}
